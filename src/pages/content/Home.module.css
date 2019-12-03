@@ -1,0 +1,29 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  width: 256px;
+  height: 100vh;
+  background-color: #000b16;
+  box-shadow: 2px 0 6px rgba(0, 21, 41, .35);
+}
+
+.content {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f0f2f5;
+}
+
+.mainContent {
+  /* width: 100%; */
+  background: #fff;
+  margin: 16px;
+  padding: 16px;
+  /* height: 100%; */
+}

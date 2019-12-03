@@ -1,0 +1,9 @@
+.upload-box{
+  position: relative;
+}
+
+.upload-tip{
+  position: absolute;
+  left: 128px;
+  top: 65px;
+}

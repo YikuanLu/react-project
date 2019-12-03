@@ -1,0 +1,53 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+  height: 64px;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+  z-index: 2;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 10px;
+  transition: all .3s;
+}
+
+.content:hover {
+  background: rgba(0, 0, 0, .025);
+}
+
+.user .avart {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-color: #1790ff;
+  text-align: center;
+  line-height: 26px;
+  border-radius: 50%;
+  margin-right: 8px;
+  color: #fff;
+}
+.logoBox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 18px;
+}
+.logoBox .logo {
+  display: inline-block;
+  width: 50px;
+  margin-right: 8px;
+}
+
+.logoBox .logo img {
+  width: 100%;
+}
+
+.logoBox span {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.65);
+}
